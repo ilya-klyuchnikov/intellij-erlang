@@ -261,6 +261,9 @@
         <localInspection language="Erlang" shortName="ErlangSystemMacro" displayName="System macros"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangSystemMacroInspection"/>
+        <localInspection language="Erlang" shortName="ErlangGenServerCall" displayName="Gen server calls"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangGenServerCallInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
