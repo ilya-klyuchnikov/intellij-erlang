@@ -264,6 +264,12 @@
         <localInspection language="Erlang" shortName="ErlangGenServerCall" displayName="Gen server calls"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangGenServerCallInspection"/>
+        <localInspection language="Erlang" shortName="ErlangGenServerCallStatic" displayName="Static gen server calls"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangGenServerCallStaticInspection"/>
+        <localInspection language="Erlang" shortName="ErlangGenServerCallDynamic" displayName="Dynamic gen server calls"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangGenServerCallDynamicInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
