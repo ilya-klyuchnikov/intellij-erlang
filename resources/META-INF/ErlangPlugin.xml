@@ -255,6 +255,12 @@
         <localInspection language="Erlang" shortName="ErlangConflictingBehaviours" displayName="Conflicting behaviours"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangConflictingBehavioursInspection"/>
+        <localInspection language="Erlang" shortName="ErlangUserMacro" displayName="User macros"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangUserMacroInspection"/>
+        <localInspection language="Erlang" shortName="ErlangSystemMacro" displayName="System macros"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangSystemMacroInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
