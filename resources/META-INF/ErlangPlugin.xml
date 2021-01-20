@@ -270,6 +270,9 @@
         <localInspection language="Erlang" shortName="ErlangGenServerCallDynamic" displayName="Dynamic gen server calls"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangGenServerCallDynamicInspection"/>
+        <localInspection language="Erlang" shortName="ErlangOrElseInGuard" displayName="Binary orelse used in a guard"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangOrElseInGuardInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
