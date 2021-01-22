@@ -279,6 +279,9 @@
         <localInspection language="Erlang" shortName="ErlangNotInGuard" displayName="Unary not used in a guard"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangNotInGuardInspection"/>
+        <localInspection language="Erlang" shortName="ErlangBinaryInGuard" displayName="Binary expression used in a guard"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangBinaryInGuardInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
