@@ -285,6 +285,9 @@
         <localInspection language="Erlang" shortName="ErlangComplexBitSpecifiers" displayName="Complex Bit specifiers"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangComplexBitSpecifiersInspection"/>
+        <localInspection language="Erlang" shortName="ErlangRecordAsDefaultValue" displayName="Record expression as a default value"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangRecordAsDefaultValueInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
