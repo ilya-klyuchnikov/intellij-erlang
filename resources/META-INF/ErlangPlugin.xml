@@ -288,6 +288,12 @@
         <localInspection language="Erlang" shortName="ErlangRecordAsDefaultValue" displayName="Record expression as a default value"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangRecordAsDefaultValueInspection"/>
+        <localInspection language="Erlang" shortName="ErlangMapInGuard" displayName="Map in guard"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangMapInGuardInspection"/>
+        <localInspection language="Erlang" shortName="ErlangMapInPattern" displayName="Map in pattern"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangMapInPatternInspection"/>
 
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
