@@ -291,6 +291,9 @@
         <localInspection language="Erlang" shortName="ErlangMapInGuard" displayName="Map in guard"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangMapInGuardInspection"/>
+        <localInspection language="Erlang" shortName="ErlangMapBifInGuard" displayName="Map bif in guard"
+                         groupName="Erlang" enabledByDefault="true" level="WARNING"
+                         implementationClass="org.intellij.erlang.inspection.ErlangMapBifInGuardInspection"/>
         <localInspection language="Erlang" shortName="ErlangMapInPattern" displayName="Map in pattern"
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangMapInPatternInspection"/>
